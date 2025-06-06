@@ -1,0 +1,85 @@
+/* TOPO do app.css ou index.css */
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* ADICIONADO para impedir scroll no nível do HTML */
+  /* background-color: #00ff00; */ /* Opcional para teste: fundo verde para ver se html está visível */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; /* Herda o box-sizing do html */
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Fundo preto para o corpo da página */
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* Ou sua fonte preferida */
+  overflow: hidden; /* MANTIDO para garantir que o corpo também não permita scroll */
+}
+
+#root {
+  height: 100%; /* Faz o #root ocupar toda a altura do body */
+  display: flex;
+  flex-direction: column; /* Se a IndexPage for o único filho e precisar preencher */
+}
+
+/* --- Seus outros estilos (partículas, glows, Navbar custom, etc.) podem vir depois --- */
+#particle-container .particle {
+  position: absolute;
+  background-color: rgba(100, 181, 246, 0.2);
+  border-radius: 50%;
+  opacity: 0;
+  animation: float 25s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) translateX(0px) scale(0.7); opacity: 0; }
+  25% { transform: translateY(-20px) translateX(10px) scale(1); opacity: 0.4; }
+  50% { transform: translateY(10px) translateX(-15px) scale(0.8); opacity: 0.2; }
+  75% { transform: translateY(-15px) translateX(20px) scale(1.1); opacity: 0.5; }
+}
+
+.title-glow {
+  text-shadow: 0 0 10px rgba(124, 58, 237, 0.2),
+               0 0 18px rgba(124, 58, 237, 0.1);
+}
+
+.shield-icon-glow {
+  filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.7))
+          drop-shadow(0 0 15px rgba(124, 58, 237, 0.5));
+}
+
+.shield-background-glow {
+  box-shadow: 0 0 20px 10px rgba(124, 58, 237, 0.15),
+              0 0 35px 20px rgba(124, 58, 237, 0.08);
+}
+
+.aegis-gradient-text {
+  background: linear-gradient(to right, #8A2BE2, #c371ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+}
+
+.mobile-menu-container {
+  position: fixed; inset: 0;
+  background-color: rgba(10, 10, 20, 0.97);
+  backdrop-filter: blur(12px);
+  z-index: 40;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto; /* Permite scroll interno do menu se necessário */
+}
+
+.mobile-menu-open { transform: translateX(0%); }
+.mobile-menu-closed { transform: translateX(100%); }
+
+/* Certifique-se que as classes de utilidade do seu app.css original não estão causando conflitos
+   ou removendo padding do #root se você tiver isso definido no JSX. */

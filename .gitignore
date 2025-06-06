@@ -1,0 +1,17 @@
+﻿# Arquivos de Segredos e Ambiente
+.env
+*.env
+.env.*
+
+# Pastas de dependências do Python e Node.js
+/venv/
+/node_modules/
+
+# Arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Outros arquivos de sistema e IDEs
+.vscode/
+.idea/
+.DS_Store
