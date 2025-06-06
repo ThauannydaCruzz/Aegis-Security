@@ -4,8 +4,7 @@
 
 **Aegis Security** é uma plataforma completa de cibersegurança projetada para oferecer uma solução integrada de proteção, análise e suporte ao usuário. O projeto combina um chatbot inteligente para atendimento de incidentes, um dashboard para visualização de dados e um sistema de reconhecimento facial para verificação de identidade e controle de acesso.
 
-*(Aqui você pode adicionar um GIF demonstrando a plataforma em ação)*
-`![Demonstração do Aegis](link_para_seu_gif.gif)`
+
 
 ---
 
