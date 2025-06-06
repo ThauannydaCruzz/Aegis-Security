@@ -1,0 +1,30 @@
+Transcrição Aegis
+User: thauanny
+Data: 04/06/2025 22:34:13
+Status: Finalizado pelo usuário (via botão)
+Gravidade: Não Avaliada
+Diagnóstico: Não detalhado.
+Soluções:
+Como não detalhou, recomendo monitorar e contatar suporte se persistir.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: acho que sofri uma invasão no email
+
+Aegis: Lamento por isso. Vamos verificar juntos o status de sua conta. Por favor, forneça-me algum detalhe adicional sobre a invasão que você observou? (A Aplicação agora faria as perguntas necessárias para um diagnóstico.) Assim como Aegis, O
+
+Aegis: Para que eu possa ajudar melhor com seu e-mail, preciso entender alguns detalhes. Poderia me dizer se: 1. Perdeu completamente o acesso? 2. Suspeita de vazamento de informações? 3. Notou alguma atividade financeira incomum?
+
+thauanny: perdi completamente o acesso e notei atividade financeira incomum
+
+Aegis: Compreendo. Com base no que conversamos, minha sugestão geral é: Como não detalhou, recomendo monitorar e contatar suporte se persistir.
+
+Isso te dá um caminho ou ajuda a entender os próximos passos? (sim ou não)
+
+thauanny: não
+
+Aegis: Entendido. Se você tiver mais questões sobre cibersegurança, sinta-se à vontade para falar comigo novamente. Saiba que Aegis está sempre ao seu lado em sua jornada digital segura! (A Aplicação encerra a conversa.)
+
+------------------
+Fim.

@@ -1,0 +1,28 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 20:04:15
+Status: Não solucionado (usuário indicou)
+Gravidade: Média
+Diagnóstico: NÃO interagiu com SMS/Phishing, Suspeita de Phishing/Spam via SMS
+Soluções:
+Com base no que conversamos, recomendo as seguintes ações: (Fallback soluções)
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi, recebi um sms estranho
+
+Aegis: Lamento que esteja passando por essa situação. Entendo a preocupação. Você chegou a clicar em algum link que estava nessa mensagem, respondeu a ela, ou forneceu alguma informação pessoal?
+
+thauanny: não
+
+Aegis: Com base no que conversamos, recomendo as seguintes ações: (Fallback soluções)
+
+Aegis: Com base no que conversamos, recomendo as seguintes ações: (Fallback soluções)
+
+Essas orientações ajudaram a resolver seu problema ou a entender os próximos passos? (sim ou não)
+
+thauanny: não
+
+------------------
+Fim.

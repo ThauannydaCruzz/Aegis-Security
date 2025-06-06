@@ -1,0 +1,38 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 21:00:10
+Status: Solucionado pelo chatbot
+Gravidade: Alta
+Diagnóstico: Atividade financeira suspeita/não autorizada, Suspeita de Invasão de Website
+Soluções:
+1. Ative o bloqueio em seu painel administrativo ou atualize suas senhas se possível para evitar acesso não autorizado. 2. Revise os registros financeiros do último mês, procurando transações que você não tenha feito pessoalmente. 3. Configure alertas de segurança no seu banco ou sistema bancário para notificar qualquer atividade suspeita imediatamente em futuras transações.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi, meu website foi invadido
+
+Aegis: Oi! Isso parece ser uma situação muito desconfortável. Estamos aqui para ajudá-lo com isso o quanto antes. Você pode me informar quais erros ou sinais de alerta você notou? Por favor, mantenha seu feedback construtivo e evite qualquer dica pessoal que possa Entendido. Você notou alguma alteração estranha no site, como conteúdo modificado ou posts que não fez?
+
+thauanny: sim
+
+Aegis: Certo. E você ainda consegue acessar o painel administrativo do seu site?
+
+thauanny: não
+
+Aegis: Ok. E você suspeita que dados pessoais possam ter vazado?
+
+thauanny: sim
+
+Aegis: Entendido. Por último, notou alguma atividade financeira incomum que possa estar ligada a isso?
+
+thauanny: sim
+
+Aegis: 1. Ative o bloqueio em seu painel administrativo ou atualize suas senhas se possível para evitar acesso não autorizado. 2. Revise os registros financeiros do último mês, procurando transações que você não tenha feito pessoalmente. 3. Configure alertas de segurança no seu banco ou sistema bancário para notificar qualquer atividade suspeita imediatamente em futuras transações.
+
+Essas orientações ajudaram a entender os próximos passos? (sim ou não)
+
+thauanny: sim
+
+------------------
+Fim.

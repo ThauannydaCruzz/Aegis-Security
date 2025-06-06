@@ -1,0 +1,28 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 21:26:25
+Status: Finalizado pelo usuário (via botão)
+Gravidade: Baixa
+Diagnóstico: Suspeita de Invasão de Website
+Soluções:
+1. Verifique se houve alterações inesperadas no conteúdo ou na aparência do site que não fez sozinhas recentemente. Se simplesmente ocorreu uma modificação sem seu conhecimento prévio, pode ser um ataque de desastres técnicos e precisa entrar em contato com a equipe técnica imediatamente. 2. Revise os arquivos do site para confirmar se foram alterados ou adicionados por terceiros indesejados. Use ferramentas como o Wappalyzer no GitHub para identificar alterações que não pertençam ao seu website pessoal e, em seguida, remova tudo que for estranho usando recursos de edição do site ou uma conta alternativa se necessário. 3. Atualize a senha da sua conta no WordPress (ou plataforma utilizada) para evitar potenciais ataques futuros e melhores proteger as credenciais pessoais que podem estar comprometidas neste evento.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi, meu site foi invadido
+
+Aegis: Entendido. Lamento que esteja passando por isso. Entendido. Você notou alguma alteração estranha no site, como conteúdo modificado ou posts que não fez?
+
+thauanny: sim
+
+Aegis: 1. Verifique se houve alterações inesperadas no conteúdo ou na aparência do site que não fez sozinhas recentemente. Se simplesmente ocorreu uma modificação sem seu conhecimento prévio, pode ser um ataque de desastres técnicos e precisa entrar em contato com a equipe técnica imediatamente. 2. Revise os arquivos do site para confirmar se foram alterados ou adicionados por terceiros indesejados. Use ferramentas como o Wappalyzer no GitHub para identificar alterações que não pertençam ao seu website pessoal e, em seguida, remova tudo que for estranho usando recursos de edição do site ou uma conta alternativa se necessário. 3. Atualize a senha da sua conta no WordPress (ou plataforma utilizada) para evitar potenciais ataques futuros e melhores proteger as credenciais pessoais que podem estar comprometidas neste evento.
+
+Essas orientações ajudaram a entender os próximos passos? (sim ou não)
+
+thauanny: não
+
+Aegis: Entendido. Lamento não ter resolvido completamente. Você pode fazer outra pergunta ou, se preferir, pode finalizar o atendimento no botão correspondente para que nossa equipe analise a conversa.
+
+------------------
+Fim.

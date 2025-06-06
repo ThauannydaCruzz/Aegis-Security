@@ -1,0 +1,26 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 20:57:05
+Status: Finalizado pelo usuário (via botão)
+Gravidade: Não Avaliada
+Diagnóstico: Não detalhado.
+Soluções:
+Nenhuma solução específica registrada.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi, o que são invasões ciberneticas?
+
+Aegis: Invasão no contexto de cibersegurança refere-se a um ataque onde indivíduos ou grupos obtêm acesso não autorizado ao seu sistema digital. Isso pode resultar em roubo de informações pessoais, dano aos seus arquivos e potencialmente afetar negativamente suas contas online. É sempre importante manter as senhas fortes para prevenir tais incidentes.
+
+thauanny: entendi, e como criar uma senha forte?
+
+Aegis: Para construir uma senha segura: use uma combinação de letras maiúsculas e minúsculas, números e símbolos; evite palavras comuns ou sequências fáceis de adivinhar. Por exemplo, 'Fr4s&Complet@1!' é um bom padrão para uma senha forte.
+
+thauanny: entendi, obrigada!
+
+Aegis: Compreendo. Se você tiver mais dúvidas sobre cibersegurança ou qualquer outro assunto relacionado à privacidade online, não hesite em me contatar novamente. Boa noite e cuide bem sua segurança digital!
+
+------------------
+Fim.

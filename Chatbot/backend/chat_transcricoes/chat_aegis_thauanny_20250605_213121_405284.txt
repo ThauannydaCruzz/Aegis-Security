@@ -1,0 +1,40 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 21:31:21
+Status: Finalizado pelo usuário (via botão)
+Gravidade: Média
+Diagnóstico: Conteúdo de site alterado, Suspeita de Invasão de Website, Suspeita de vazamento de informações
+Soluções:
+Como recomendação geral, monitore suas contas, use senhas fortes e desconfie de mensagens inesperadas.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: meu site foi invadido
+
+Aegis: Entendido. Lamento que esteja passando por isso. Entendido. Você notou alguma alteração estranha no site, como conteúdo modificado ou posts que não fez?
+
+thauanny: sim
+
+Aegis: Certo. E você ainda consegue acessar o painel administrativo do seu site?
+
+thauanny: não
+
+Aegis: Ok. E você suspeita que dados pessoais possam ter vazado?
+
+thauanny: sim
+
+Aegis: Entendido. Por último, notou alguma atividade financeira incomum que possa estar ligada a isso?
+
+thauanny: não
+
+Aegis: Como recomendação geral, monitore suas contas, use senhas fortes e desconfie de mensagens inesperadas.
+
+Espero que estas orientações ajudem. Se precisar de algo mais, é só perguntar. Para encerrar o atendimento, por favor, clique no botão 'Finalizar'.
+
+thauanny: me de mais dicas de como proteger meu site
+
+Aegis: Houve um problema na comunicação com o sistema de inteligência. Por favor, tente novamente mais tarde.
+
+------------------
+Fim.

@@ -1,0 +1,38 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 21:05:13
+Status: Não solucionado (usuário indicou)
+Gravidade: Baixa
+Diagnóstico: Suspeita de Invasão de Website
+Soluções:
+1. Revise seus registros para confirmar se houve alterações no site que não fez você. 2. Limpe seu perfil do Facebook com o último local onde utilizou senhas conhecidas, substituindo-as por novas em todos os outros locais da internet imediatamente após isso. 3. Verifique seus contatos diretos e sites financeiros que possa ter feito transações online para notar alterações incomuns ou pedidos de remessas não solicitadas.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi, meu site foi invadido
+
+Aegis: Entendido. Lamento que esteja passando por isso. Entendido. Você notou alguma alteração estranha no site, como conteúdo modificado ou posts que não fez?
+
+thauanny: sim
+
+Aegis: Certo. E você ainda consegue acessar o painel administrativo do seu site?
+
+thauanny: não
+
+Aegis: Ok. E você suspeita que dados pessoais possam ter vazado?
+
+thauanny: sim
+
+Aegis: Entendido. Por último, notou alguma atividade financeira incomum que possa estar ligada a isso?
+
+thauanny: não
+
+Aegis: 1. Revise seus registros para confirmar se houve alterações no site que não fez você. 2. Limpe seu perfil do Facebook com o último local onde utilizou senhas conhecidas, substituindo-as por novas em todos os outros locais da internet imediatamente após isso. 3. Verifique seus contatos diretos e sites financeiros que possa ter feito transações online para notar alterações incomuns ou pedidos de remessas não solicitadas.
+
+Essas orientações ajudaram a entender os próximos passos? (sim ou não)
+
+thauanny: não
+
+------------------
+Fim.

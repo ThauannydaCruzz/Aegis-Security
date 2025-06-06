@@ -1,0 +1,29 @@
+Transcrição Aegis
+User: thauanny
+Data: 31/05/2025 20:03:27
+Status: Solucionado pelo chatbot
+Gravidade: Média
+Diagnóstico: Suspeita de Phishing/Spam
+Soluções:
+1. Monitore conta. 2. Use 2FA. 3. Altere senha.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Como posso ser útil hoje? (Fallback)
+
+thauanny: oi, acho que estou sofrendo pishing, estão me mandando emails suspeitos
+
+Aegis: Lamento que esteja enfrentando essa situação com seu e-mail. Isso parece preocupante. Para que eu possa te ajudar melhor, preciso entender alguns detalhes. Poderia me dizer, por exemplo, se você perdeu completamente o acesso a este serviço, se suspeita de vazamento de informações relacionadas a ele, ou se notou alguma atividade financeira incomum que possa estar conectada?
+
+thauanny: somente estou recebendo emails suspeitos
+
+Aegis: Compreendi melhor. Gravidade: Média. Diagnóstico: Suspeita de Phishing/Spam.
+
+Sugestões:
+1. Monitore conta. 2. Use 2FA. 3. Altere senha.
+
+Essas orientações ajudaram a resolver seu problema ou a entender os próximos passos? (sim ou não)
+
+thauanny: sim
+
+------------------
+Fim.

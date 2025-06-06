@@ -1,0 +1,24 @@
+Transcrição Aegis
+User: thauanny
+Data: 31/05/2025 19:29:21
+Status: Encaminhado ao Suporte Humano
+------------------
+
+Aegis: Olá! Bom dia. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi, acho que sofri um ataque malicioso
+
+Aegis: Lamento muito que você tenha experimentado isso. Estou aqui para ajudá-lo. Você pode me fornecer mais detalhes sobre o problema sem revelar informações pessoais? Por favor, esteja pronto para prosseguir com um fluxo de diagnóstico estruturado conforme necessário.
+
+thauanny: estão me mandando mensagens suspeitas, com links e etc
+
+Aegis: Isso pode indicar phishing ou spam. Podemos trabalhar juntos para analisar essas comunicações? Se houver conteúdo que pareça fora do normal em seus emails, por favor compartilhe algumas amostras comigo sem divulgar detalhes pessoais.
+
+thauanny: esse é o email que eu recebi: Prezada(o) colaboradora(or),  Detectamos uma atividade incomum em sua conta de e-mail institucional que pode indicar um acesso não autorizado. Como medida de segurança, é necessário verificar suas credenciais imediatamente para evitar bloqueios.  Clique no botão abaixo para realizar a verificação:  🔒 Verificar Minha Conta  Caso não seja possível confirmar sua identidade nas próximas 24 horas, sua conta poderá ser suspensa temporariamente por motivos de segurança.  Atenciosamente, Equipe de Suporte Técnico TI Corporativo - [Nome da Empresa]
+
+Aegis: Entendido.
+
+Aegis: Para um atendimento direto com nossa equipe de suporte Aegis, o WhatsApp é: +5514996609040. Eles estão prontos para te auxiliar. Sua solicitação também foi registrada com a equipe.
+
+------------------
+Fim.

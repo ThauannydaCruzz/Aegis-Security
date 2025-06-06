@@ -1,0 +1,36 @@
+Transcrição Aegis
+User: thauanny
+Data: 05/06/2025 18:43:45
+Status: Finalizado pelo usuário (via botão)
+Gravidade: Não Avaliada
+Diagnóstico: Não detalhado.
+Soluções:
+Nenhuma solução específica registrada.
+------------------
+
+Aegis: Olá! Boa noite. Sou Aegis, seu especialista em segurança digital. Meu objetivo é auxiliá-lo com sua privacidade online e cibersegurança. Como posso ser útil hoje?
+
+thauanny: oi
+
+Aegis: Oi! Entendi que você está se conectando às ferramentas de segurança digital para manutenção da sua privacidade. Posso ajudá-lo com quaisquer dúvidas ou preocupações sobre cibersegurança?
+
+thauanny: queria entender o que são invasões ciberneticas e como funcionam
+
+Aegis: Compreendo a importân0cia de saber mais sobre as invasões cibernéticas. São ataques automatizados onde hackers exploram vulnerabilidades para roubar dados ou causar danos à infraestrutura digital. Eles podem ser complexas e sutilmente disfarçadas, mas é crucial estar ciente das ameaças existentes. Posso informá-lo sobre como se proteger contra tais ataques?
+
+thauanny: sim, como me protejo?
+
+Aegis: Para se proteger de invasões cibernéticas: 1. Utilize senhas fortes e únicas para cada site ou aplicativo utilizado; uma boa pode ser algo que combine letras maiúsculas, minúsculas, números e símbolos em um padrão aleatório como 'Fr4s&Complet@1!'. 2. Atualize regularmente o sistema operacional do computador ou dispositivo para corrigir vulnerabilidades conhecidas (Patching). 3. Tenha cautela ao abrir anexos de email e evite fazer login em sites suspeitos, mesmo se parecerem legítimos. Avalie sempre a legitimidade antes de fornecer informações pessoais ou financeiras online.
+
+thauanny: entendi, muito obrigada
+
+Aegis: Compreendo.
+
+Aegis: Antes de encerrarmos, gostaria de confirmar: sua questão principal ou o problema que você trouxe foi resolvido com nossa conversa? (sim ou não)
+
+thauanny: sim
+
+Aegis: Agradeço por considerar a ajuda fornecida. Se precisar mais informações no futuro, sinta-se à vontade para entrar em contato novamente. Que tudo esteja seguro e saudável!
+
+------------------
+Fim.
