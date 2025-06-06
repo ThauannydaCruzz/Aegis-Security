@@ -1,44 +1,55 @@
-# Aegis Security Chatbot
+# Aegis Security - Plataforma Integrada de Cibersegurança
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
 
-**Aegis** é um assistente de cibersegurança avançado, projetado para oferecer suporte e orientação a usuários no Brasil. Utilizando um modelo de linguagem local (LLM) através do Ollama, o Aegis é capaz de responder a perguntas, diagnosticar incidentes de segurança através de um fluxo de conversa guiado e notificar uma equipe de suporte em casos críticos.
+**Aegis Security** é uma plataforma completa de cibersegurança projetada para oferecer uma solução integrada de proteção, análise e suporte ao usuário. O projeto combina um chatbot inteligente para atendimento de incidentes, um dashboard para visualização de dados e um sistema de reconhecimento facial para verificação de identidade e controle de acesso.
 
-*(Aqui você pode adicionar um GIF demonstrando o chatbot em ação)*
+*(Aqui você pode adicionar um GIF demonstrando a plataforma em ação)*
 `![Demonstração do Aegis](link_para_seu_gif.gif)`
 
 ---
 
-## ✨ Funcionalidades Principais
+## ✨ Funcionalidades do Projeto
 
-* **🧠 Assistente de Conhecimento:** Responde a perguntas gerais sobre termos e práticas de cibersegurança (ex: "o que é malware?", "como criar uma senha forte?").
-* **🕵️‍♂️ Analista de Incidentes:** Ao receber um relato de incidente (ex: "meu site foi invadido"), inicia um fluxo de diagnóstico com perguntas sequenciais para avaliar a gravidade do problema.
-* **💡 Soluções Direcionadas:** Fornece orientações e os primeiros passos a serem tomados com base no diagnóstico do incidente. Para os casos mais comuns, utiliza respostas de alta qualidade já programadas para garantir precisão e velocidade.
-* **📲 Notificação de Emergência via WhatsApp:** Permite que o usuário acione um botão de emergência que notifica instantaneamente a equipe de suporte via API da Twilio.
-* **📊 Relatório de Atendimento:** Ao finalizar um atendimento (através do botão "Finalizar"), um relatório estruturado e resumido da interação é enviado para a equipe de suporte via WhatsApp.
-* **📜 Registro de Conversas:** Salva transcrições de todas as conversas em arquivos de texto para fins de auditoria e análise futura.
+A plataforma Aegis é composta por três módulos principais que trabalham de forma integrada:
+
+### 1. 🤖 Chatbot de Suporte (Aegis Assistant)
+Um assistente de IA para triagem e suporte primário de incidentes de segurança.
+* **Diagnóstico Guiado:** Inicia um fluxo de perguntas para avaliar a gravidade de incidentes relatados por usuários (ex: invasão de sites, phishing, malware).
+* **Base de Conhecimento:** Responde a perguntas gerais sobre termos e práticas de cibersegurança utilizando o modelo de linguagem `phi-3` via Ollama.
+* **Soluções Direcionadas:** Oferece passos de ação imediatos e específicos para os problemas diagnosticados, utilizando respostas programadas de alta qualidade para os cenários mais comuns.
+* **Notificações Críticas:** Permite que o usuário acione um botão de emergência que notifica instantaneamente a equipe de suporte via WhatsApp, utilizando a API da Twilio.
+* **Geração de Relatórios:** Ao finalizar um atendimento através do botão dedicado, um relatório estruturado do incidente é enviado para a equipe, facilitando a análise posterior.
+
+### 2. 📊 Dashboard de Segurança
+Um painel de controle visual e interativo para monitoramento e análise de dados.
+* **Visualização de Métricas:** Apresenta dados e insights sobre os atendimentos e incidentes de segurança registrados pelo chatbot, com gráficos gerados pela biblioteca `Recharts`.
+* **Análise de Tendências:** Utiliza a biblioteca `pandas` no backend para agregar os dados das conversas, permitindo identificar os tipos de ataques mais comuns, a gravidade dos incidentes e outras métricas relevantes para a tomada de decisão.
+* **Interface Responsiva:** Construído com componentes `shadcn/ui` e `Tailwind CSS` para uma experiência de usuário limpa e adaptável.
+
+### 3. 👤 Sistema de Autenticação Segura
+Uma solução robusta para gerenciamento de acesso, combinando métodos tradicionais e biométricos.
+* **Autenticação por Token JWT:** Implementa um sistema de login e registro seguro, utilizando `passlib` para o hashing de senhas e JSON Web Tokens (JWT) para o gerenciamento de sessões.
+* **Verificação por Reconhecimento Facial:** Utiliza a biblioteca `OpenCV` para capturar a imagem da webcam e a `face_recognition` para extrair as características faciais, comparando-as com um cadastro prévio para validar a identidade do usuário de forma rápida e segura.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-O projeto é dividido em duas partes principais: o backend e o frontend.
-
-### Backend
-* **Python:** Linguagem principal para toda a lógica da aplicação.
-* **FastAPI:** Framework web para construir a API REST que o frontend consome.
-* **Uvicorn:** Servidor ASGI que executa a aplicação FastAPI.
-* **Ollama & Phi-3:** O Ollama serve para rodar o modelo de linguagem `phi-3` localmente, funcionando como o "cérebro" para respostas não programadas.
-* **Twilio API:** Serviço utilizado para enviar as notificações e relatórios para a equipe de suporte via WhatsApp.
-* **Pydantic:** Usado pelo FastAPI para validação e serialização de dados.
-* **Dotenv:** Para gerenciamento seguro de variáveis de ambiente (chaves de API, segredos).
-
-### Frontend
-* **React:** Biblioteca principal para a construção da interface de usuário.
-* **TypeScript:** Superset do JavaScript que adiciona tipagem estática ao código.
-* **Shadcn/UI:** Coleção de componentes de UI reusáveis para construir a interface do chat.
-* **Tailwind CSS:** Framework de CSS para estilização rápida e responsiva.
-* **Vite:** Ferramenta de build para um desenvolvimento frontend extremamente rápido.
+| Categoria | Tecnologia | Propósito |
+| :--- | :--- | :--- |
+| **Backend** | Python, FastAPI, Uvicorn | Estrutura da API, gerenciamento de rotas e servidor. |
+| | SQLAlchemy | ORM para comunicação com o banco de dados. |
+| | Pandas | Manipulação e análise dos dados para o dashboard. |
+| | Passlib & Python-JOSE | Segurança de senhas (hashing) e gerenciamento de tokens JWT. |
+| **Inteligência Artificial**| Ollama & Phi-3 | Execução local do modelo de linguagem para as conversas do chatbot. |
+| **Análise de Imagem** | OpenCV (`opencv-python`) | Captura e processamento de imagens da câmera para o reconhecimento facial. |
+| | Face Recognition | Extração de características faciais e comparação para verificação biométrica. |
+| **Comunicação** | Twilio API | Envio de notificações e relatórios via WhatsApp. |
+| **Frontend** | React & TypeScript | Biblioteca principal e linguagem para a construção da interface de usuário. |
+| | Shadcn/UI & Tailwind CSS | Componentes de UI e estilização moderna. |
+| | Recharts | Biblioteca para a criação dos gráficos interativos no dashboard. |
+| | Lucide-React | Biblioteca de ícones. |
 
 ---
 
@@ -71,17 +82,25 @@ cd Aegis-Security
     # Ativar no Windows (PowerShell)
     .\venv\Scripts\Activate
     ```
-3.  **Crie o arquivo `requirements.txt`:** Se você já instalou as bibliotecas (`fastapi`, `uvicorn`, `requests`, `twilio`, `python-dotenv`), gere o arquivo de dependências:
+3.  **Instale as dependências:** Crie um arquivo `requirements.txt` e adicione as bibliotecas necessárias. Depois, instale-as.
     ```bash
-    pip freeze > requirements.txt
-    ```
-4.  **Instale as dependências:** (Se outra pessoa for rodar o projeto, ela usará este comando)
-    ```bash
+    # Exemplo do conteúdo do requirements.txt:
+    # fastapi
+    # uvicorn[standard]
+    # requests
+    # python-dotenv
+    # twilio
+    # SQLAlchemy
+    # pandas
+    # opencv-python
+    # face_recognition
+    # passlib[bcrypt]
+    # python-jose[cryptography]
+
     pip install -r requirements.txt
     ```
-5.  **Configure as variáveis de ambiente:**
-    * Crie uma cópia do arquivo `.env.example` (se houver um) ou crie um novo arquivo chamado `.env`.
-    * Preencha o arquivo `.env` com suas chaves da Twilio e outras configurações:
+4.  **Configure as variáveis de ambiente:**
+    * Crie um arquivo chamado `.env` na pasta `backend` e preencha com suas chaves:
         ```ini
         TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -95,11 +114,12 @@ cd Aegis-Security
 1.  Em um **novo terminal**, navegue até a pasta do frontend.
 2.  Instale as dependências do Node.js:
     ```bash
-    cd ../frontend 
+    # A partir da pasta raiz 'Aegis-Security'
+    cd frontend 
     npm install
     ```
 
-### 4. Iniciar os Servidores (3 Terminais)
+### 4. Iniciar os Servidores (Requer 3 Terminais)
 Para o sistema funcionar, você precisa de **3 terminais rodando ao mesmo tempo**:
 
 * **Terminal 1: Ollama (O Cérebro)**
@@ -107,10 +127,10 @@ Para o sistema funcionar, você precisa de **3 terminais rodando ao mesmo tempo*
     ollama serve
     ```
 
-* **Terminal 2: Backend (O Corpo)**
+* **Terminal 2: Backend (A Lógica)**
     * (Na pasta `backend` com o `venv` ativado)
     ```bash
-    uvicorn app.main:app --reload --port 8001
+    uvicorn app.main:app --reload
     ```
 
 * **Terminal 3: Frontend (A Interface)**
@@ -122,12 +142,3 @@ Para o sistema funcionar, você precisa de **3 terminais rodando ao mesmo tempo*
 ### 5. Acessar a Aplicação
 Com os três servidores rodando, acesse o endereço fornecido pelo `npm run dev` (geralmente `http://localhost:5173`) no seu navegador.
 
----
-
-## ✒️ Autora
-
-* **Thauanny da Cruz** - [GitHub](https://github.com/ThauannydaCruzz)
-
----
-## 📄 Licença
-Este projeto pode ser distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
